@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El avance de los videojuegos</title>
+    <title>El avance de los videojuegos y Dark Souls</title>
     <style>
         body {
             font-family: 'Verdana', sans-serif;
@@ -11,10 +11,10 @@
             margin: 0;
             padding: 0;
             background-color: #121212;
-            color: #fff;
+            color: #f5f5f5;
         }
         header {
-            background: linear-gradient(90deg, #ff7f50, #ff4500);
+            background: linear-gradient(90deg, #4a148c, #7e57c2);
             color: #fff;
             padding: 2rem;
             text-align: center;
@@ -24,21 +24,21 @@
             display: flex;
             justify-content: center;
             padding: 1rem;
-            background: #222;
+            background: #333;
         }
         nav a {
-            color: #ff7f50;
+            color: #7e57c2;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
-            color: #ff4500;
+            color: #4a148c;
         }
         main {
             padding: 2rem;
-            background: #1e1e1e;
+            background: #232323;
             margin: 20px auto;
             max-width: 900px;
             border-radius: 10px;
@@ -53,7 +53,7 @@
             margin-top: 1.5rem;
         }
         .highlight {
-            color: #ff4500;
+            color: #7e57c2;
             font-weight: bold;
         }
         .icon {
@@ -63,10 +63,20 @@
         footer {
             text-align: center;
             padding: 1.5rem;
-            background: linear-gradient(90deg, #ff4500, #ff7f50);
+            background: linear-gradient(90deg, #7e57c2, #4a148c);
             color: #fff;
             margin-top: 20px;
             font-size: 0.9rem;
+        }
+        .video-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 10px;
         }
         .decorative {
             text-align: center;
@@ -80,50 +90,56 @@
 </head>
 <body>
     <header>
-        <h1>🎮 El avance de los videojuegos 🎮</h1>
-        <p>Una exploración de cómo los videojuegos han transformado nuestras vidas.</p>
+        <h1>🎮 El avance de los videojuegos y Dark Souls 🎮</h1>
+        <p>Un recorrido desde el avance de los videojuegos hasta la épica saga de Dark Souls.</p>
     </header>
     <nav>
-        <a href="#historia">Historia</a>
+        <a href="#avance-general">Avance de los videojuegos</a>
+        <a href="#dark-souls">Dark Souls</a>
         <a href="#impacto">Impacto</a>
         <a href="#futuro">Futuro</a>
         <a href="#datos-curiosos">Datos curiosos</a>
         <a href="#gracias">Gracias</a>
     </nav>
     <main>
-        <section id="historia">
-            <h2>📜 Historia de los videojuegos</h2>
-            <p>Los videojuegos nacieron como un simple pasatiempo y se han convertido en una de las formas de entretenimiento más influyentes del siglo XXI. Desde las primeras consolas hasta los juegos en la nube, cada década ha aportado avances increíbles.</p>
-            <img src="https://via.placeholder.com/900x400" alt="Historia de los videojuegos">
+        <section id="avance-general">
+            <h2>📜 El avance de los videojuegos</h2>
+            <p>Desde los primeros <span class="highlight">juegos arcade</span> como Pong, hasta videojuegos modernos como The Last of Us, la industria ha revolucionado el entretenimiento.</p>
+            <img src="https://via.placeholder.com/900x400" alt="Avance general">
+        </section>
+        <section id="dark-souls">
+            <h2>🔥 El legado de Dark Souls</h2>
+            <p><span class="highlight">Dark Souls</span>, desarrollado por FromSoftware, redefinió el género con su dificultad y diseño intrincado, convirtiéndose en una experiencia única para los jugadores.</p>
+            <img src="https://via.placeholder.com/900x400" alt="Dark Souls">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            </div>
         </section>
         <section id="impacto">
             <h2>🌍 Impacto en la sociedad</h2>
-            <p>El impacto de los videojuegos se puede ver en muchos aspectos de la vida moderna:</p>
+            <p>Desde mejorar habilidades cognitivas hasta conectar culturas, los videojuegos han transformado el mundo.</p>
             <ul>
-                <li><span class="icon">🧠</span> Mejoran las habilidades cognitivas y de resolución de problemas.</li>
-                <li><span class="icon">🤝</span> Conectan a personas de diferentes culturas a través del juego en línea.</li>
-                <li><span class="icon">💰</span> Generan miles de empleos en la industria del entretenimiento.</li>
+                <li><span class="icon">🧠</span> Mejoran la toma de decisiones.</li>
+                <li><span class="icon">🤝</span> Crean comunidades globales.</li>
+                <li><span class="icon">💰</span> Generan grandes ingresos económicos.</li>
             </ul>
-            <img src="https://via.placeholder.com/900x400" alt="Impacto de los videojuegos">
         </section>
         <section id="futuro">
             <h2>🔮 El futuro de los videojuegos</h2>
-            <p>Con la integración de tecnologías avanzadas como la realidad virtual, la inteligencia artificial y el blockchain, el futuro de los videojuegos promete experiencias más personalizadas e inmersivas.</p>
+            <p>Con tecnologías como la <span class="highlight">realidad virtual</span> y la inteligencia artificial, el futuro promete juegos más inmersivos que nunca.</p>
             <img src="https://via.placeholder.com/900x400" alt="Futuro de los videojuegos">
         </section>
         <section id="datos-curiosos">
-            <h2>🎲 Datos curiosos sobre los videojuegos</h2>
-            <p>¿Sabías que...</p>
+            <h2>🎲 Datos curiosos</h2>
             <ul>
-                <li>El término "eSports" ha dado lugar a competiciones internacionales con premios millonarios.</li>
-                <li><span class="highlight">Mario</span>, de Nintendo, es el personaje más icónico en la historia de los videojuegos.</li>
-                <li>La consola más vendida de todos los tiempos es la <span class="highlight">PlayStation 2</span>.</li>
+                <li><span class="highlight">Mario</span> es el personaje más icónico.</li>
+                <li>La <span class="highlight">PlayStation 2</span> es la consola más vendida.</li>
+                <li>Dark Souls popularizó el término "You Died".</li>
             </ul>
-            <img src="https://via.placeholder.com/900x400" alt="Datos curiosos sobre videojuegos">
         </section>
         <section id="gracias" class="decorative">
-            <h2>🎉 ¡Gracias por visitar!</h2>
-            <p>Esperamos que hayas disfrutado explorando la evolución de los videojuegos. ¡Sigue jugando!</p>
+            <h2>🎉 ¡Gracias por explorar!</h2>
+            <p>Espero que hayas disfrutado este recorrido por los videojuegos. ¡Sigue jugando!</p>
             <div>
                 <img src="https://via.placeholder.com/50" alt="Icono decorativo">
                 <img src="https://via.placeholder.com/50" alt="Icono decorativo">
@@ -132,7 +148,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Los videojuegos y su avance. Todos los derechos reservados.</p>
+        <p>&copy; 2025 El avance de los videojuegos y Dark Souls. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
