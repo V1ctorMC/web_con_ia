@@ -13,20 +13,21 @@
             background-color: #f4f4f4;
         }
         header {
-            background: #333;
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
             color: #fff;
-            padding: 1rem;
+            padding: 1.5rem;
             text-align: center;
         }
         nav {
             text-align: center;
             padding: 1rem;
-            background: #444;
+            background: #333;
         }
         nav a {
             color: #fff;
             margin: 0 10px;
             text-decoration: none;
+            font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
@@ -39,11 +40,24 @@
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
+        section {
+            margin-bottom: 2rem;
+        }
+        section img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        .highlight {
+            color: #2a5298;
+            font-weight: bold;
+        }
         footer {
             text-align: center;
             padding: 1rem;
-            background: #333;
+            background: #1e3c72;
             color: #fff;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -56,19 +70,38 @@
         <a href="#historia">Historia</a>
         <a href="#impacto">Impacto</a>
         <a href="#futuro">Futuro</a>
+        <a href="#datos-curiosos">Datos curiosos</a>
     </nav>
     <main>
         <section id="historia">
             <h2>Historia de los videojuegos</h2>
-            <p>Desde Pong y Space Invaders hasta juegos modernos como The Last of Us, la industria de los videojuegos ha experimentado un crecimiento increíble en las últimas décadas.</p>
+            <p>Desde los primeros <span class="highlight">juegos arcade</span> como Pong en los años 70, hasta los videojuegos hiperrealistas de hoy, la industria ha evolucionado de manera impresionante.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Historia de los videojuegos">
         </section>
         <section id="impacto">
             <h2>Impacto en la sociedad</h2>
-            <p>Los videojuegos no solo son entretenimiento; también han influido en la educación, la cultura y la tecnología, creando comunidades globales.</p>
+            <p>Los videojuegos han transformado el entretenimiento, creando una industria global con millones de jugadores. Además, han influido en sectores como la educación, la ciencia y la cultura.</p>
+            <ul>
+                <li>Desarrollo de habilidades cognitivas y coordinación</li>
+                <li>Promoción de la creatividad y el trabajo en equipo</li>
+                <li>Impacto económico global</li>
+            </ul>
+            <img src="https://via.placeholder.com/800x400" alt="Impacto de los videojuegos">
         </section>
         <section id="futuro">
             <h2>El futuro de los videojuegos</h2>
-            <p>Con tecnologías como la realidad virtual y aumentada, los videojuegos del futuro prometen ser más inmersivos e interactivos que nunca.</p>
+            <p>Las tecnologías emergentes, como <span class="highlight">realidad virtual</span>, inteligencia artificial y streaming en la nube, están definiendo una nueva era en el gaming. Se espera que los videojuegos sean más accesibles e inmersivos que nunca.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Futuro de los videojuegos">
+        </section>
+        <section id="datos-curiosos">
+            <h2>Datos curiosos sobre los videojuegos</h2>
+            <p>¿Sabías que...</p>
+            <ul>
+                <li>El videojuego más vendido de todos los tiempos es <span class="highlight">Minecraft</span>?</li>
+                <li>Pac-Man fue el primer videojuego en ser considerado una <span class="highlight">obra de arte</span>.</li>
+                <li>En Japón, existe una competencia nacional de <span class="highlight">Tetris</span>.</li>
+            </ul>
+            <img src="https://via.placeholder.com/800x400" alt="Datos curiosos sobre videojuegos">
         </section>
     </main>
     <footer>
